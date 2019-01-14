@@ -1,2 +1,2 @@
 # gocarbe
-The CarBe Golang backend.
+The CarBe GoLang backend.
