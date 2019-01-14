@@ -2,7 +2,6 @@ package main
 
 import (
 	"bufio"
-	"gocarbe/api"
 	"gocarbe/listen"
 	"gocarbe/shared"
 	"gocarbe/store"
@@ -12,7 +11,6 @@ import (
 func setup(configArray []string) {
 	shared.SetUpLog()
 	store.SetUpDb()
-	api.SetUpApi(configArray[0])
 }
 
 func main() {
